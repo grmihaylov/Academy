@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ROBOT FACTORY</title>
+      <link href="styles.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <header>  
+         <h1>ROBOT FACTORY</h1> 
+         <a href="https://www.playtech.com/" target="_blank"><img alt="playtech" src="PTWebAcademy2022-03-15 132008.JPG"
+            width=150" height="70"></a>
+      </header>
+      <section id="slide-1" class="factory-section"> 
+         <div class="content-wrapper row">
+            <div class="block">
+               <div class="robot">
+                  <div class="head">
+                     <div class="eyes">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                     </div>
+                     <div class="mouth"></div>
+                  </div>
+                  <div class="base">
+                     <div class="arms"></div>
+                     <div class="body"></div>
+                     <div class="arms"></div>
+                  </div>
+                  <div class="legs">
+                     <div class="leg"></div>
+                     <div class="leg"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="paragraph column">
+               <div class="paragraph-1"><p>Paragraph text here. Text-align on left, 3% space from right border. Text is only 2 lines and ends with three dots… because it too long. On hover full text is shown as tooltip. First letter is bold.	</p></div>
+               <div class="paragraph-2"><p>Paragraph text here. Text justified 6% space from right border. Text is only 2 lines and ends with three dots… because it too long. On hover full text is shown. First word is italic.</p></div>
+               <div class="paragraph-3"><p>Paragraph text here. Text-align on left, 9% from right border. Image on left side.</p>
+            </div>
+         </div>
+      </section>
+      <section id="slide-2" class="create-section">
+         <h1>Create Robot</h1> 
+         <hr />
+         <form>
+            <div class="row">
+               <div class="column">
+                 <label for="name">Name</label>
+                 <input type="text" id="name"></input>
+               </div>
+               <div class="column">
+                 <label for="type">Select type</label>
+                 <select id="type"></select>
+               </div>
+               <div class="column">
+                 <label for="color">Select color</label>
+                 <input type="color" id="color" value="#FFA500"></input>
+               </div>
+               <div class="column">
+                 <label for="option">Select options</label>
+                 <div class="row">
+                    <input type="checkbox" id="jump"></input>
+                    <label for="jump">can jump</label>
+                 </div>
+                 <div class="row">
+                    <input type="checkbox" id="talk"></input>
+                    <label for="talk">can talk</label>
+                 </div>
+                 <div class="row">
+                    <input type="checkbox" id="blink"></input>
+                    <label for="blink">can blink</label>
+                 </div>
+               </div>
+               <div class="column">
+                 <label for="comment">Write Comments</label>
+                 <textarea name="comment-area" placeholder="text area" rows="5"></textarea>
+               </div>
+            </div>
+            <div class="row">
+              <button class="button">Create</button>
+              <button class="button">Show Created Robots</button>
+            </div>
+         </form>
+         <hr />
+         <div class="empty"></div>
+      </section>
+   </body>
+</html>

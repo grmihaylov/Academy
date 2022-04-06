@@ -1,0 +1,163 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: 
+    space-between;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column{
+    display:flex;
+    flex-direction: column;
+    min-width: 250px
+}
+.factory-section{
+    background-color: #FFA500;
+    margin: 0 30px 30px;
+    border: 1px solid;
+}
+.content-wrapper{
+    padding: 30px 50px 30px;
+}
+.block{
+    position:relative;
+    height: 500px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+}
+.paragraph{
+    flex: min-content;
+}
+.paragraph-1{
+    height: 180px;
+    width: 785px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    margin: 0px 10px 20px 40px;
+}
+.paragraph-2{
+    height: 160px;
+    width: 725px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    margin: 0px 10px 20px 40px;
+}
+.paragraph-3{
+    height: 115px;
+    width: 665px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    margin: 0px 10px 20px 40px;
+}
+.robot{
+    position:relative;
+    top: 30px;
+}
+.head{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+    left: 40%;
+}
+.eyes{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 20px;
+    left: 20%;
+}
+.eyes .eye{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin: 0 3px;
+}
+.head .mouth{
+    position: absolute;
+    left: 30%;
+    top: 70px;
+    width: 40px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.base{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 30%;
+    top: 105px;
+}
+.base .arms{
+    width: 20px;
+    height: 100px;
+    border: 1px solid;
+}
+.base .body{
+    border-top: 200px solid #FFA500;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    width: 80px;
+}
+.legs{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 40%;
+    top: 305px;
+}
+.legs .leg{
+    width: 20px;
+    height: 100px;
+    border: 1px solid;
+    margin: 0 15px;
+}
+.create-section{
+    background-color: lightgreen;
+    margin: 0px 30px 30px;
+    border: 1px solid;
+}
+hr{
+    background-color: black;
+    border:none;
+    height: 1px;   
+}
+.create-section .row{
+    padding: 10px;   
+}
+.create-section .column{
+    padding: 10px;    
+}
+.create-section h1{
+    text-align: center;   
+}
+.button{
+    margin: 15px;
+    width: 260px;
+    font-size: 18px;
+}
+input,select,button{
+    width: 250px;
+    border-radius: 4%;
+    height: 35px;   
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+input{
+    height: 30px;
+}
+.empty{
+    height: 260px;
+}
+form{
+    font-size: 18px;
+}
